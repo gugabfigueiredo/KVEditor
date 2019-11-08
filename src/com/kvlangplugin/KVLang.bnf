@@ -1,0 +1,40 @@
+{
+  parserClass="com.kvlangplugin.parser.KVLangParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="KVLang"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.kvlangplugin.psi"
+  psiImplPackage="com.kvlangplugin.psi.impl"
+
+  elementTypeHolderClass="com.kvlangplugin.psi.KVLangTypes"
+  elementTypeClass="com.kvlangplugin.psi.KVLangElementType"
+  tokenTypeClass="com.kvlangplugin.psi.KVLangTokenType"
+}
+
+kvLangFile ::= (header body?|)
+
+// header def
+header ::= version_stmt (import_stmt|include_stmt|set_stmt)*
+version_stmt ::= '#:' kivy VER
+import_stmt ::= '#:' import NAME PKG_NAME
+include_stmt ::= '#:' include force? FILE
+
+
+// body def
+body ::= rule*
+rule ::= (style|root|dynamic)
+style ::= '<' CLASS_NAME '>:' INDENT style_body DEDENT
+root ::= CLASS_NAME ':' INDENT style_body DEDENT
+dynamic ::= '<' CLASS_NAME '@' CLASS_NAME ('+' CLASS_NAME)* '>:' INDENT style_body DEDENT
+style_body ::= (property|on_property|widget)
+property ::=  NAME ':' INDENT style_body DEDENT
+on_property ::= NAME ':' callback_stmt
+callback_stmt ::= python_expr | (INDENT pyvy_block DEDENT)
+python_expr ::= NAME
+pyvy_block ::=
+
+//private item_ ::= (property|COMMENT|CRLF)
+
+//property ::= (KEY? SEPARATOR VALUE?) | KEY
