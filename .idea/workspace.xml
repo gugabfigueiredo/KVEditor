@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a5566ee-6b8b-4904-a219-d0ea2d7cc900" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KVEditor/com/kvlangplugin/KVLang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KVEditor/com/kvlangplugin/KVLangFileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KVEditor/com/kvlangplugin/KVLangFileTypeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KVEditor/com/kvlangplugin/KVLangIcons.class" beforeDir="false" />
-    </list>
+    <list default="true" id="3a5566ee-6b8b-4904-a219-d0ea2d7cc900" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,12 +227,12 @@
       <updated>1573040709260</updated>
       <workItem from="1573040710565" duration="3766000" />
       <workItem from="1573164254976" duration="4359000" />
-      <workItem from="1573214563902" duration="220000" />
+      <workItem from="1573214563902" duration="1049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8463000" />
+    <option name="totallyTimeSpent" value="9174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
@@ -259,13 +251,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3279743" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.72639483" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
