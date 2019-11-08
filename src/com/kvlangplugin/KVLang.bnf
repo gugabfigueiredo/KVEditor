@@ -21,7 +21,6 @@ version_stmt ::= '#:' kivy VER
 import_stmt ::= '#:' import NAME PKG_NAME
 include_stmt ::= '#:' include force? FILE
 
-
 // body def
 body ::= rule*
 rule ::= (style|root|dynamic)
